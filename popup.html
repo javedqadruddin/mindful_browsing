@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Mindful Browsing</h1>
+
+  <section>
+    <h2>Blocked Sites</h2>
+    <div class="input-row">
+      <input type="text" id="blocked-input" placeholder="e.g. reddit.com">
+      <button id="blocked-add">Add</button>
+    </div>
+    <ul id="blocked-list"></ul>
+  </section>
+
+  <section>
+    <h2>Slow Sites</h2>
+    <div class="input-row">
+      <input type="text" id="slow-input" placeholder="e.g. twitter.com">
+      <button id="slow-add">Add</button>
+    </div>
+    <ul id="slow-list"></ul>
+  </section>
+
+  <script src="popup.js"></script>
+</body>
+</html>

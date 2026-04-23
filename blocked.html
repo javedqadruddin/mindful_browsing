@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breathe</title>
+  <link rel="stylesheet" href="blocked.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="headline">Meditate Instead</h1>
+
+    <div id="meditate-controls">
+      <div class="meditate-row">
+        <span class="meditate-label">Meditate for</span>
+        <button id="meditate-dec" class="step-btn" aria-label="Decrease minutes">−</button>
+        <span id="meditate-minutes">5</span>
+        <button id="meditate-inc" class="step-btn" aria-label="Increase minutes">+</button>
+        <span class="meditate-label">min</span>
+      </div>
+      <button id="meditate-start">Start</button>
+      <div id="meditate-timer" class="hidden"></div>
+    </div>
+
+    <div id="slow-controls" class="hidden">
+      <button id="proceed-btn">Proceed Anyway</button>
+      <div id="countdown" class="hidden"></div>
+    </div>
+  </div>
+  <script src="blocked.js"></script>
+</body>
+</html>

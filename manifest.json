@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Mindful Browsing",
+  "version": "1.0",
+  "description": "Block or slow down access to distracting websites with a mindfulness redirect.",
+  "permissions": ["storage", "webNavigation"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Mindful Browsing"
+  },
+  "icons": {}
+}
